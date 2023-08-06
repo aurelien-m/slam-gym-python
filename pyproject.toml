@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "slam-gym"
+version = "0.1.0"
+description = ""
+authors = ["Aurélien Montmejat <aurelien.montmejat@gmail.com>"]
+readme = "README.md"
+packages = [{include = "slam_gym"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rerun-sdk = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
